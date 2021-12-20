@@ -1,0 +1,72 @@
+<!--Criar as páginas: Home, Destino, Promoções, Contato e as demais de acordo com seu modelo 
+de dados usando HTML e CSS raiz, faça as formatações de acordo com a paleta de cores escolhida;-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de Viagens</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-warning">
+                <a  class="btn btn-primary" href="/index.html"><strong>Home</strong></a>
+                <a  class="btn btn-primary" href="/Destino.html"><strong>Destino</strong></a>
+                <a  class="btn btn-primary" href="/Promoções.html"><strong>Promoções</strong></a>
+                <a  class="btn btn-primary" href="/TelaLogin.html"><strong>Entrar/Fazer Cadastro</strong></a>
+                <a  class="btn btn-primary" href="/Contato.html"><strong>Contato</strong></a>
+        </nav>
+    </header>
+    <main class="home">
+
+        <div class="container-fluid">
+            
+            <h1>Agência de Viagens</h1>
+    
+                <a class="btn btn-danger m-2 p-2" href="/Destino.html">Passagem</a>
+                <a class="btn btn-danger m-2 p-2" href="/Promoções.html">Pacotes</a>
+               
+    
+            <section id="destino">
+                <label for="destino">Qual seu Destino?</label>
+                <input type="text" id="destino" name="destino">
+            </section>
+    
+            <section id="qntPessoas">
+                <label for="qntdPessoas">Quantas Pessoas vão viajar?</label>
+                <input type="number" id="qntdPessoas">
+            </section>
+            
+            <input type="radio" name="data" value="idaevolta">Ida e volta 
+            <input type="radio" name="data" value="ida">Somente ida
+    
+            <section id="data">
+                <label for="data">Qual a data da sua viagem?</label>
+                ida:<input type="date" id="dataida">
+                volta: <input type="date" id="datavolta">
+            </section>
+    
+            <a href="/Promoções.html" class="btn btn-warning">Comprar</a>
+    
+        <div class="d-flex justify-content-center">
+            <div class="m2 p-2"><img src="/imagens/Avião.png" alt="Passagens De Avião" width="60">
+                <p>Passagens Aéreas</p>
+            </div>
+            <div class="m-2"><img src="/imagens/Descontos.png" alt="Os Melhores Descontos" width="60">
+                <p>   Os Melhores Descontos!!!</p>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer class="footer bg-primary">
+        &copy; Site Desenvolvido por <a class="text-dark" href="https://github.com/DanielSantos08" target="_blank" rel="external">Daniel Santos</a> para a
+        <a class="text-dark" href="https://www.recodepro.org.br/" target="_blank" rel="external">Recode Pro</a> 
+    </footer>
+</body>
+</html>

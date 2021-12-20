@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Agência de Viagens";
+}
+
+    <main class="home">
+
+            <div class="container-fluid">
+                
+                <h1>Agência de Viagens</h1>
+
+                    <a class="btn btn-danger m-2 p-2" href="/Destino.html">Passagem</a>
+                    <a class="btn btn-danger m-2 p-2" href="/Promoções.html">Pacotes</a>
+                   
+
+                <section id="destino">
+                    <label for="destino">Qual seu Destino?</label>
+                    <input type="text" id="destino" name="destino">
+                </section>
+
+                <section id="qntPessoas">
+                    <label for="qntdPessoas">Quantas Pessoas vão viajar?</label>
+                    <input type="number" id="qntdPessoas">
+                </section>
+                
+                <input type="radio" name="data" value="idaevolta">Ida e volta 
+                <input type="radio" name="data" value="ida">Somente ida
+
+                <section id="data">
+                    <label for="data">Qual a data da sua viagem?</label>
+                    ida:<input type="date" id="dataida">
+                    volta: <input type="date" id="datavolta">
+                </section>
+
+                <a href="/Promoções.html" class="btn btn-warning">Comprar</a>
+
+            <div class="d-flex justify-content-center">
+                <div class="m2 p-2"><img src="~/css/imagens/Avião.png" alt="Passagens De Avião" width="60">
+                    <p>Passagens Aéreas</p>
+                </div>
+                <div class="m-2"><img src="/css/imagens/Descontos.png" alt="Os Melhores Descontos" width="60">
+                    <p>   Os Melhores Descontos!!!</p>
+                </div>
+            </div>
+        </div>
+    </main>

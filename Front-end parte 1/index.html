@@ -1,0 +1,74 @@
+<!--Criar as páginas: Home, Destino, Promoções, Contato e as demais de acordo com seu modelo 
+de dados usando HTML e CSS raiz, faça as formatações de acordo com a paleta de cores escolhida;-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de Viagens</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a class="linknav" href="/index.html"><strong>Home</strong></a></li>
+                <li><a class="linknav" href="/Destino.html"><strong>Destino</strong></a></li>
+                <li><a class="linknav" href="/Promoções.html"><strong>Promoções</strong></a></li>
+                <li><a class="linknav" href="/TelaLogin.html"><strong>Entrar/Fazer Cadastro</strong></a></li>
+                <li><a class="linknav" href="/Contato.html"><strong>Contato</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="SectionCentral">
+            <div class="MenuCentral">
+                
+                <h1>Agência de Viagens</h1>
+
+                    <a href="/Destino.html">Passagem</a>
+                    <a href="/Promoções.html">Pacotes</a>
+                   
+
+                <section id="destino">
+                    <label for="destino">Qual seu Destino?</label>
+                    <input type="text" id="destino" name="destino">
+                </section>
+
+                <section id="qntPessoas">
+                    <label for="qntdPessoas">Quantas Pessoas vão viajar?</label>
+                    <input type="number" id="qntdPessoas">
+                </section>
+                
+                <input type="radio" name="data" value="idaevolta">Ida e volta 
+                <input type="radio" name="data" value="ida">Somente ida
+
+                <section id="data">
+                    <label for="data">Qual a data da sua viagem?</label>
+                    ida:<input type="date" id="dataida">
+                    volta: <input type="date" id="datavolta">
+                </section>
+
+                <a href="/Promoções.html" class="button">Comprar</a>
+
+            <div class="flex">
+                <div><img src="/style/imagens/Avião.png" alt="Passagens De Avião" width="60px">
+                    <p>Passagens Aéreas</p>
+                </div>
+                <div><img src="/style/imagens/Descontos.png" alt="Os Melhores Descontos" width="60px">
+                    <p>Os Melhores Descontos!!!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        &copy; Site Desenvolvido por <a class="linkfooter" href="https://github.com/DanielSantos08" target="_blank" rel="external">Daniel Santos</a> para a
+        <a class="linkfooter" href="https://www.recodepro.org.br/" target="_blank" rel="external">Recode Pro</a>
+    </footer>
+</body>
+</html>

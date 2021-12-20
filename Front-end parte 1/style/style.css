@@ -1,0 +1,113 @@
+@charset "utf-8";
+* {
+    margin: o;
+    padding: 0;
+}.linknav{
+    color: rgb(0, 131, 253);
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+}a{
+    color: black;
+}.linkfooter{
+    color: white;
+}nav{
+    display: flex;
+    background-color: rgb(255, 238, 0);
+}.navbar{
+    display: flex;
+    list-style: none;
+}.navbar li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}body{
+    background-color: black;
+}main{
+    width: auto;
+    background-image: url(/style/imagens/PraiaTropical.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}.destino{
+    width: auto;
+    background-image: url(/style/imagens/54dad79c1e9a650dd95acea2cae6940d.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}.promo{
+    width: auto;
+    background-image: url(/style/imagens/calm_ocean.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}.login{
+    width: auto;
+    background-image: url(/style/imagens/paisagem.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 200px;
+}.contato{
+    width: auto;
+    background-image: url(/style/imagens/pordosol.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding: 200px;
+}.SectionCentral{
+    padding: 25vh;
+}.MenuCentral{
+    background-color: ffffff10;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    font-size: 150%;
+}footer{
+    color: white;
+    text-align: center;
+    background-color: blue;
+    padding: 10px;
+    position: relative;
+}.flex{
+    display: flex;
+    justify-content:space-around;
+}#destino, #qntPessoas, #data{
+    padding: 2px;
+    margin: 5px;
+}.flexdestinos{
+    background-color: aliceblue;
+}.imgdestinos{
+    width: 40%;
+    height: 40%;
+}.imgpromocao{
+    width: 150px;
+    height: 100px;
+}.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin: 15px;
+    padding: 15px;
+    font-size: 200%;
+}.containerpromocao{
+    display: inline-flex;
+    background-color: antiquewhite;
+    max-width: 307px;
+    margin: 5px;
+    padding: 10px;
+    height: 100px;
+}
+.preco{
+    color: red;
+    font-size: 300%;
+}
+.btncompra{
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+}
